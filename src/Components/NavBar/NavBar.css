@@ -1,0 +1,23 @@
+/* Navbar style */
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111c1;
+}
+
+.n-logo{
+    position: fixed;
+    left: 25px;
+    width: 80px;
+}
+
+.avatar{
+    position: fixed;
+    right: 25px;
+    width: 30px;
+}

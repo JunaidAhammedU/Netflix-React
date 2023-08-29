@@ -1,0 +1,43 @@
+.poster-div{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+        display: flex;
+        padding: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    max-width: 268px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px #060606;
+}
+
+.poster:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.5s ease-in-out ;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px #060606;
+}
+
+.smallPoster{
+    max-width: 220px;
+    margin-right: 10px;
+    box-shadow: 3px 4px 5px #060606;
+    border-radius: 5px;
+}
+
+.smallPoster:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.5s ease-in-out ;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px #060606;
+}
