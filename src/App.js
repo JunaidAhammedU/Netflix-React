@@ -6,7 +6,7 @@ import Banner from "./Components/Banner/Banner";
 import Poster from './Components/Poster/Poster';
 //---------------------------------------------
 
-function App() {
+ function App() {
   return (
     <div className="App">
       <NavBar/>
